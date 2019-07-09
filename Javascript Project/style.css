@@ -1,0 +1,75 @@
+body {
+
+    background-image: url(foto/thanos.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    color: crimson;
+}
+
+div {
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.outer-grid {
+    position: relative;
+    float: left;
+    width: 33.3%;
+    padding-bottom: 33.3%;
+    margin: 0 33.3%;
+}
+
+.outer-square {
+    position: absolute;
+    color: crimson;
+    width: 70%;
+    height: 60%;
+    background: #ffffff;
+    margin: 10%;
+    display: -webkit-flex;
+    -webkit-flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.inner-grid {
+    width: 33%;
+    height: 33.3%;
+    display: table;
+    border: 5px solid #ccc;
+    border-radius: 5px;
+}
+
+.inner-square {
+    line-height: 100%;
+    font-size: 50px;
+    font-weight: bold;
+    display: table-cell;
+}
+
+#output,
+h1 {
+    margin-top: 40px;
+    color: crimson;
+    text-align: center;
+    font-size: 40px;
+}
+
+.disable {
+    pointer-events: none;
+}
+
+button {
+    outline: 0;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 5px solid #ccc;
+}
