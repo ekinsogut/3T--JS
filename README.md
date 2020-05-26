@@ -1,2 +1,2 @@
-# tic tac toe game 
-javascript project
+# Tic tac toe game 
+Javascript project
